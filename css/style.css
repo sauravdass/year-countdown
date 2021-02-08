@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h1{
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 2px 2px 1px pink;
+}
+
+.countdown{
+    width: 900px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.countdown .times{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.countdown .times h2{
+    font-size: 60px;
+}
+
+.countdown .times p{
+    font-size: 20px;
+}
+
+.countdown .times .ms{
+    position: absolute;
+    display: inline-block;
+    padding: 5px;
+    background-color: aliceblue;
+    width: 40px;
+    top: 0;
+    right: 0;
+}
+
+.countdown .times .ms h6{
+    font-size: 16px;
+}
+
+.countdown .times .ms p{
+    font-size: 8px;
+}
+
